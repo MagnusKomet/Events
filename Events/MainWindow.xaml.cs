@@ -45,14 +45,14 @@ namespace Events
             e.Handled = true;
         }
 
-        /*
+        
         // Tunneling
         private void Panel_PreviewMouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             Debug.WriteLine("Has clicat l'stack !!!!!!!!!!!!!!!!");
             MessageBox.Show("Has clicat l'stack !!!!!!!!!!!!!!!!");
         }
-        */
+        
          
         // Bubbling
         private void Panel_Click(object sender, RoutedEventArgs e)

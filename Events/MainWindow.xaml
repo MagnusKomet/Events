@@ -6,6 +6,9 @@
         xmlns:local="clr-namespace:Events"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+
+    <!-- <StackPanel Name="Panel" PreviewMouseLeftButtonDown="Panel_Click"> -->
+
     <StackPanel Name="Panel" ButtonBase.Click="Panel_Click">
 
         <Button Content="Envia1!!!" Margin="15" Width="150" HorizontalAlignment="Left" Click="Button_Click"/>
@@ -13,4 +16,6 @@
         <Button Content="Envia3!!!" Margin="15" Width="150" HorizontalAlignment="Right"  Click="Button_Click3"/>
 
     </StackPanel>
+    
+    
 </Window>
